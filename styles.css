@@ -54,6 +54,8 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-top: 10px;
+    box-sizing: border-box;
+    resize: none;
 }
 
 .buttons {
@@ -63,7 +65,7 @@ textarea {
 }
 
 button {
-    flex-grow: 1;
+    flex: 1;
     padding: 10px;
     margin: 0 5px;
     background-color: #ffca28;
